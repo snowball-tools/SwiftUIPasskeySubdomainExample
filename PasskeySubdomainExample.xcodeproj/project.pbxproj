@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085C199F2AF9E55A00FDF1DE /* PasskeySubdomainExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C199E2AF9E55A00FDF1DE /* PasskeySubdomainExampleApp.swift */; };
+		085C19A32AF9E55B00FDF1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085C19A22AF9E55B00FDF1DE /* Assets.xcassets */; };
+		085C19A62AF9E55B00FDF1DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085C19A52AF9E55B00FDF1DE /* Preview Assets.xcassets */; };
+		085C19B12AF9E55B00FDF1DE /* PasskeySubdomainExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C19B02AF9E55B00FDF1DE /* PasskeySubdomainExampleTests.swift */; };
+		085C19BB2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C19BA2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests.swift */; };
+		085C19BD2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C19BC2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITestsLaunchTests.swift */; };
+		085C19CA2AF9E5C200FDF1DE /* PasskeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C19C92AF9E5C200FDF1DE /* PasskeyView.swift */; };
+		085C19CC2AF9E66400FDF1DE /* PasskeyAuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C19CB2AF9E66400FDF1DE /* PasskeyAuthenticationManager.swift */; };
+		08EEFE5F2AFA1E760024AA41 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EEFE5E2AFA1E760024AA41 /* AuthenticationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		085C19AD2AF9E55B00FDF1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085C19932AF9E55A00FDF1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 085C199A2AF9E55A00FDF1DE;
+			remoteInfo = PasskeySubdomainExample;
+		};
+		085C19B72AF9E55B00FDF1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085C19932AF9E55A00FDF1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 085C199A2AF9E55A00FDF1DE;
+			remoteInfo = PasskeySubdomainExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085C199B2AF9E55A00FDF1DE /* PasskeySubdomainExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasskeySubdomainExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		085C199E2AF9E55A00FDF1DE /* PasskeySubdomainExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeySubdomainExampleApp.swift; sourceTree = "<group>"; };
+		085C19A22AF9E55B00FDF1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		085C19A52AF9E55B00FDF1DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		085C19A72AF9E55B00FDF1DE /* PasskeySubdomainExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasskeySubdomainExample.entitlements; sourceTree = "<group>"; };
+		085C19AC2AF9E55B00FDF1DE /* PasskeySubdomainExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasskeySubdomainExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		085C19B02AF9E55B00FDF1DE /* PasskeySubdomainExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeySubdomainExampleTests.swift; sourceTree = "<group>"; };
+		085C19B62AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasskeySubdomainExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		085C19BA2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeySubdomainExampleUITests.swift; sourceTree = "<group>"; };
+		085C19BC2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeySubdomainExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		085C19C92AF9E5C200FDF1DE /* PasskeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeyView.swift; sourceTree = "<group>"; };
+		085C19CB2AF9E66400FDF1DE /* PasskeyAuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasskeyAuthenticationManager.swift; sourceTree = "<group>"; };
+		08EEFE5E2AFA1E760024AA41 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/AuthenticationServices.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085C19982AF9E55A00FDF1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EEFE5F2AFA1E760024AA41 /* AuthenticationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085C19A92AF9E55B00FDF1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085C19B32AF9E55B00FDF1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085C19922AF9E55A00FDF1DE = {
+			isa = PBXGroup;
+			children = (
+				085C199D2AF9E55A00FDF1DE /* PasskeySubdomainExample */,
+				085C19AF2AF9E55B00FDF1DE /* PasskeySubdomainExampleTests */,
+				085C19B92AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests */,
+				085C199C2AF9E55A00FDF1DE /* Products */,
+				08EEFE5D2AFA1E760024AA41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		085C199C2AF9E55A00FDF1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				085C199B2AF9E55A00FDF1DE /* PasskeySubdomainExample.app */,
+				085C19AC2AF9E55B00FDF1DE /* PasskeySubdomainExampleTests.xctest */,
+				085C19B62AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		085C199D2AF9E55A00FDF1DE /* PasskeySubdomainExample */ = {
+			isa = PBXGroup;
+			children = (
+				085C199E2AF9E55A00FDF1DE /* PasskeySubdomainExampleApp.swift */,
+				085C19C92AF9E5C200FDF1DE /* PasskeyView.swift */,
+				085C19CB2AF9E66400FDF1DE /* PasskeyAuthenticationManager.swift */,
+				085C19A22AF9E55B00FDF1DE /* Assets.xcassets */,
+				085C19A72AF9E55B00FDF1DE /* PasskeySubdomainExample.entitlements */,
+				085C19A42AF9E55B00FDF1DE /* Preview Content */,
+			);
+			path = PasskeySubdomainExample;
+			sourceTree = "<group>";
+		};
+		085C19A42AF9E55B00FDF1DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				085C19A52AF9E55B00FDF1DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		085C19AF2AF9E55B00FDF1DE /* PasskeySubdomainExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				085C19B02AF9E55B00FDF1DE /* PasskeySubdomainExampleTests.swift */,
+			);
+			path = PasskeySubdomainExampleTests;
+			sourceTree = "<group>";
+		};
+		085C19B92AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				085C19BA2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests.swift */,
+				085C19BC2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITestsLaunchTests.swift */,
+			);
+			path = PasskeySubdomainExampleUITests;
+			sourceTree = "<group>";
+		};
+		08EEFE5D2AFA1E760024AA41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08EEFE5E2AFA1E760024AA41 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		085C199A2AF9E55A00FDF1DE /* PasskeySubdomainExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085C19C02AF9E55B00FDF1DE /* Build configuration list for PBXNativeTarget "PasskeySubdomainExample" */;
+			buildPhases = (
+				085C19972AF9E55A00FDF1DE /* Sources */,
+				085C19982AF9E55A00FDF1DE /* Frameworks */,
+				085C19992AF9E55A00FDF1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasskeySubdomainExample;
+			productName = PasskeySubdomainExample;
+			productReference = 085C199B2AF9E55A00FDF1DE /* PasskeySubdomainExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		085C19AB2AF9E55B00FDF1DE /* PasskeySubdomainExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085C19C32AF9E55B00FDF1DE /* Build configuration list for PBXNativeTarget "PasskeySubdomainExampleTests" */;
+			buildPhases = (
+				085C19A82AF9E55B00FDF1DE /* Sources */,
+				085C19A92AF9E55B00FDF1DE /* Frameworks */,
+				085C19AA2AF9E55B00FDF1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085C19AE2AF9E55B00FDF1DE /* PBXTargetDependency */,
+			);
+			name = PasskeySubdomainExampleTests;
+			productName = PasskeySubdomainExampleTests;
+			productReference = 085C19AC2AF9E55B00FDF1DE /* PasskeySubdomainExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		085C19B52AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085C19C62AF9E55B00FDF1DE /* Build configuration list for PBXNativeTarget "PasskeySubdomainExampleUITests" */;
+			buildPhases = (
+				085C19B22AF9E55B00FDF1DE /* Sources */,
+				085C19B32AF9E55B00FDF1DE /* Frameworks */,
+				085C19B42AF9E55B00FDF1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085C19B82AF9E55B00FDF1DE /* PBXTargetDependency */,
+			);
+			name = PasskeySubdomainExampleUITests;
+			productName = PasskeySubdomainExampleUITests;
+			productReference = 085C19B62AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		085C19932AF9E55A00FDF1DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					085C199A2AF9E55A00FDF1DE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					085C19AB2AF9E55B00FDF1DE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 085C199A2AF9E55A00FDF1DE;
+					};
+					085C19B52AF9E55B00FDF1DE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 085C199A2AF9E55A00FDF1DE;
+					};
+				};
+			};
+			buildConfigurationList = 085C19962AF9E55A00FDF1DE /* Build configuration list for PBXProject "PasskeySubdomainExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 085C19922AF9E55A00FDF1DE;
+			productRefGroup = 085C199C2AF9E55A00FDF1DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				085C199A2AF9E55A00FDF1DE /* PasskeySubdomainExample */,
+				085C19AB2AF9E55B00FDF1DE /* PasskeySubdomainExampleTests */,
+				085C19B52AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		085C19992AF9E55A00FDF1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085C19A62AF9E55B00FDF1DE /* Preview Assets.xcassets in Resources */,
+				085C19A32AF9E55B00FDF1DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085C19AA2AF9E55B00FDF1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085C19B42AF9E55B00FDF1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085C19972AF9E55A00FDF1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085C19CC2AF9E66400FDF1DE /* PasskeyAuthenticationManager.swift in Sources */,
+				085C19CA2AF9E5C200FDF1DE /* PasskeyView.swift in Sources */,
+				085C199F2AF9E55A00FDF1DE /* PasskeySubdomainExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085C19A82AF9E55B00FDF1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085C19B12AF9E55B00FDF1DE /* PasskeySubdomainExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085C19B22AF9E55B00FDF1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085C19BB2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITests.swift in Sources */,
+				085C19BD2AF9E55B00FDF1DE /* PasskeySubdomainExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		085C19AE2AF9E55B00FDF1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 085C199A2AF9E55A00FDF1DE /* PasskeySubdomainExample */;
+			targetProxy = 085C19AD2AF9E55B00FDF1DE /* PBXContainerItemProxy */;
+		};
+		085C19B82AF9E55B00FDF1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 085C199A2AF9E55A00FDF1DE /* PasskeySubdomainExample */;
+			targetProxy = 085C19B72AF9E55B00FDF1DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		085C19BE2AF9E55B00FDF1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		085C19BF2AF9E55B00FDF1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		085C19C12AF9E55B00FDF1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PasskeySubdomainExample/PasskeySubdomainExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"PasskeySubdomainExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9SAQ42S589;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasskeySubdomainExample/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.snowballtools.PasskeySubdomainExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		085C19C22AF9E55B00FDF1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PasskeySubdomainExample/PasskeySubdomainExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"PasskeySubdomainExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9SAQ42S589;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasskeySubdomainExample/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.snowballtools.PasskeySubdomainExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		085C19C42AF9E55B00FDF1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SAQ42S589;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.snowballtools.PasskeySubdomainExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasskeySubdomainExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PasskeySubdomainExample";
+			};
+			name = Debug;
+		};
+		085C19C52AF9E55B00FDF1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SAQ42S589;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.snowballtools.PasskeySubdomainExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasskeySubdomainExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PasskeySubdomainExample";
+			};
+			name = Release;
+		};
+		085C19C72AF9E55B00FDF1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SAQ42S589;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.snowballtools.PasskeySubdomainExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PasskeySubdomainExample;
+			};
+			name = Debug;
+		};
+		085C19C82AF9E55B00FDF1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SAQ42S589;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.snowballtools.PasskeySubdomainExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PasskeySubdomainExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085C19962AF9E55A00FDF1DE /* Build configuration list for PBXProject "PasskeySubdomainExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085C19BE2AF9E55B00FDF1DE /* Debug */,
+				085C19BF2AF9E55B00FDF1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085C19C02AF9E55B00FDF1DE /* Build configuration list for PBXNativeTarget "PasskeySubdomainExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085C19C12AF9E55B00FDF1DE /* Debug */,
+				085C19C22AF9E55B00FDF1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085C19C32AF9E55B00FDF1DE /* Build configuration list for PBXNativeTarget "PasskeySubdomainExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085C19C42AF9E55B00FDF1DE /* Debug */,
+				085C19C52AF9E55B00FDF1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085C19C62AF9E55B00FDF1DE /* Build configuration list for PBXNativeTarget "PasskeySubdomainExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085C19C72AF9E55B00FDF1DE /* Debug */,
+				085C19C82AF9E55B00FDF1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 085C19932AF9E55A00FDF1DE /* Project object */;
+}
