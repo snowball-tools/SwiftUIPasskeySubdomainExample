@@ -10,7 +10,7 @@ import SwiftUI
 struct PasskeyView: View {
     @State private var userId: String = ""
     @State var authManager: PasskeyAuthenticationManager?
-    
+
     var body: some View {
         VStack(spacing: 20) {
             Button(action: {
@@ -26,7 +26,7 @@ struct PasskeyView: View {
 
             Button(action: {
                 authManager?.createPasskey()
-                
+
             }) {
                 Text("Create Passkey")
                     .frame(minWidth: 0, maxWidth: .infinity)
@@ -36,7 +36,7 @@ struct PasskeyView: View {
                     .cornerRadius(10)
             }
         }
-        .padding() 
+        .padding()
         .onAppear {
             authManager = PasskeyAuthenticationManager()
         }

@@ -8,7 +8,7 @@
 import AuthenticationServices
 
 class PasskeyAuthenticationManager: NSObject, ASAuthorizationControllerPresentationContextProviding {
-    
+
     func loginWithPasskey() {
         let challenge: Data = Data("your challenge from server".utf8)
         let platformProvider = ASAuthorizationPlatformPublicKeyCredentialProvider(relyingPartyIdentifier: "snovvball.xyz")
@@ -18,7 +18,7 @@ class PasskeyAuthenticationManager: NSObject, ASAuthorizationControllerPresentat
         authController.presentationContextProvider = self
         authController.performRequests()
     }
-    
+
     func createPasskey(username: String = "Snowball") {
         let challenge: Data = Data("challenge from server".utf8)
         let userID: Data = Data("userid from server".utf8)
@@ -29,7 +29,7 @@ class PasskeyAuthenticationManager: NSObject, ASAuthorizationControllerPresentat
         authController.presentationContextProvider = self
         authController.performRequests()
     }
-    
+
     func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
             fatalError("Unable to find a window scene.")
@@ -45,7 +45,7 @@ extension PasskeyAuthenticationManager: ASAuthorizationControllerDelegate {
     func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
         print("Passkey:", authorization.credential)
     }
-    
+
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
         print("Authorization error:", error)
     }
